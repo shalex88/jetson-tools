@@ -37,6 +37,7 @@ if ! command -v sdkmanager &> /dev/null; then
     wget https://developer.download.nvidia.com/compute/cuda/repos/$formatted_version/x86_64/cuda-keyring_1.1-1_all.deb
     sudo dpkg -i cuda-keyring_1.1-1_all.deb
     rm -rf cuda-keyring_1.1-1_all.deb
+    sudo apt update
     sudo apt -y install sdkmanager
 fi
 
