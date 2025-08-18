@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 if grep -qEi "(Microsoft|WSL)" /proc/version; then
     WSL=true

@@ -2,5 +2,10 @@
 
 Collection of useful tools for NVIDIA Jetson platform
 
-## Jetson Setup
-* [Jetson SDK Manager](jetson-sdk-manager-runner/) for Ubuntu/WSL installer and runner
+## Host Tools
+
+* [Jetson SDK Manager](host/jetson-sdkmanager-runner/) installer and runner for Ubuntu/WSL
+
+## Target Tools
+
+* [WiFi Connect](target/jetson-wifi-connect/)
